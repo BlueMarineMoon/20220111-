@@ -54,7 +54,7 @@ public class MemberDTO {
 	@Override
 	public String toString() {
 		//return idx + "\t" + name + "\t" + email + "\t" + phone;
-		return String.format("%-4d%10s%20s%20s\n", idx, name, email, phone);
+		return String.format("%-4d%10s%20s%20s", idx, name, email, phone);
 	}
 
 	@Override

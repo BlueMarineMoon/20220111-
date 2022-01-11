@@ -1,10 +1,11 @@
 package org.comstudy21.member;
 
+import org.comstudy21.member.controller.DispatcherController;
+
 public class AppMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		DispatcherController.run();
 	}
 
 }
